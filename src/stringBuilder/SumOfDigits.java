@@ -2,7 +2,7 @@ package stringBuilder;
 
 public class SumOfDigits {
 	
-	public static int SumCalculation(String number) {
+	public static int digitSum(String number) {
 		if(number.isBlank()) {
 			System.out.println("Bitte eine Zahl eingeben!");
 			return 0;
@@ -20,7 +20,7 @@ public class SumOfDigits {
 	}
 	
 	public static void main(String[] args) {
-		System.out.println(SumCalculation("35903"));
+		System.out.println(digitSum("35903"));
 	}
 
 }
