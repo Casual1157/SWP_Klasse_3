@@ -22,7 +22,6 @@ public class HTML {
 	
 	public static void main(String[] args) {
 		System.out.println(strong(emphasized("strong and emphasized")));
-
 	}
 
 }
